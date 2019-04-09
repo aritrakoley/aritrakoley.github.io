@@ -9,17 +9,13 @@
         <!-- Link stylesheets here -->
     </head>
     <body>
-        <div class="container">
-            <div class="title">
-                <h1>Code Snippet</h1>
-            </div>
-            <div class="content">
-                <p>Hello, World!</p>
-            </div>
-        </div>
+        <h1>Scrape Test</h1>
+        <p id="static">This is Static Text</p>
+        <p id="js"></p>
         <!-- Link script files here -->
         <script>
-        
+        js_text = document.getElementById('js');
+        js_text.innerHTML = 'This was put here by JS';
         </script>
     </body>
 </html>
